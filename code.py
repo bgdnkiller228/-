@@ -10,5 +10,4 @@ for a in let:
                         s.append(word)
 for i in range(0, len(s)):
     if s[i] == 'ККЛКЛК':
-        i += 1
-print(i)
+        print(i+1)
